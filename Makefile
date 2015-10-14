@@ -9,6 +9,7 @@ filters: filters.c
 
 filterskiss: -g -lm filters.c kiss_fft.c kiss_fftr.c -o filters
 
+#gcc -g -lm filters.c kiss_fft.c kiss_fftr.c -o filters
 #gnuplot
 #set terminal canvas
 #set output 'plot.html'
