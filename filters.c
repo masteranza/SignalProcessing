@@ -43,6 +43,7 @@ int main(void)
 	double *hpf = create1TransSinc(windowLength, transFreq, sampFreq, HIGH_PASS);
 	double *hpf_hamming = createWindow(hpf, NULL, windowLength, HAMMING);
 
+	outputFFT("lpf.dat", lpf, windowLength, sampFreq);
 	outputFFT("lpf-hamming.dat", lpf_hamming, windowLength, sampFreq);
 	outputFFT("lpf-blackman.dat", lpf_blackman, windowLength, sampFreq);
 	outputFFT("hpf-hamming.dat", hpf_hamming, windowLength, sampFreq);
