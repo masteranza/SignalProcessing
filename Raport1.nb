@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    664098,      14172]
-NotebookOptionsPosition[    656780,      13908]
-NotebookOutlinePosition[    657662,      13941]
-CellTagsIndexPosition[    657586,      13936]
+NotebookDataLength[    664126,      14173]
+NotebookOptionsPosition[    656806,      13909]
+NotebookOutlinePosition[    657688,      13942]
+CellTagsIndexPosition[    657612,      13937]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -12467,9 +12467,10 @@ daj\:0105 zgodne wyniki.\
 
 Cell[CellGroupData[{
 
-Cell["Zanik b\[LSlash]\:0119du z rosn\:0105c\:0105 liczb\:0105 wsp\[OAcute]\
-\[LSlash]czynnik\[OAcute]w", "Subsection",
- CellChangeTimes->{{3.667906408379507*^9, 3.667906424537781*^9}},
+Cell["Zanik b\[LSlash]\:0119du z rosn\:0105c\:0105 liczb\:0105 \
+bit\[OAcute]w", "Subsection",
+ CellChangeTimes->{{3.667906408379507*^9, 3.667906424537781*^9}, {
+  3.681382708035384*^9, 3.6813827086605673`*^9}},
  CellID->561399608],
 
 Cell["Za pomoc\:0105 podobnego skryptu:", "Text",
@@ -13935,7 +13936,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"sredniblad", 657458, 13929}
+ {"sredniblad", 657484, 13930}
  }
 *)
 (*NotebookFileOutline
@@ -14031,9 +14032,9 @@ Cell[64103, 1266, 693, 18, 65, "Text",
 Cell[CellGroupData[{
 Cell[64833, 1289, 129, 2, 38, "Subsection",
  CellID->1507691073],
-Cell[64965, 1293, 2119, 51, 253, "Text",
+Cell[64965, 1293, 2119, 51, 252, "Text",
  CellID->852630463],
-Cell[67087, 1346, 1611, 49, 70, "Code",
+Cell[67087, 1346, 1611, 49, 54, "Code",
  CellID->829706488],
 Cell[68701, 1397, 17577, 298, 530, "Remark",
  CellID->391055882]
@@ -14061,7 +14062,7 @@ Cell[92899, 1876, 131, 2, 35, "Subsubsection",
  CellID->904870636],
 Cell[93033, 1880, 678, 11, 133, "Text",
  CellID->751917420],
-Cell[93714, 1893, 389, 11, 51, "Code",
+Cell[93714, 1893, 389, 11, 35, "Code",
  CellID->1679297266],
 Cell[94106, 1906, 248, 4, 36, "Text",
  CellID->488297692],
@@ -14079,7 +14080,7 @@ Cell[CellGroupData[{
 Cell[97570, 2010, 2604, 69, 271, "Input",
  CellOpen->True,
  CellID->1580657348],
-Cell[100177, 2081, 2088, 48, 381, "Output",
+Cell[100177, 2081, 2088, 48, 382, "Output",
  CellID->1138125261],
 Cell[102268, 2131, 51882, 1218, 204, "Output",
  CellID->834417798]
@@ -14133,44 +14134,44 @@ Cell[174621, 3897, 205484, 4289, 1889, "Figure",
 Cell[CellGroupData[{
 Cell[380142, 8191, 141, 2, 35, "Subsubsection",
  CellID->1220280016],
-Cell[380286, 8195, 204303, 4260, 1139, "Figure",
+Cell[380286, 8195, 204303, 4260, 1889, "Figure",
  CellID->1586004329],
 Cell[584592, 12457, 257, 6, 37, "Text",
  CellID->1791227509]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[584898, 12469, 205, 3, 38, "Subsection",
+Cell[584898, 12469, 231, 4, 38, "Subsection",
  CellID->561399608],
-Cell[585106, 12474, 161, 3, 37, "Text",
+Cell[585132, 12475, 161, 3, 37, "Text",
  CellID->904042173],
-Cell[585270, 12479, 1395, 41, 71, "Input",
+Cell[585296, 12480, 1395, 41, 113, "Input",
  CellOpen->True,
  CellID->151387013],
-Cell[586668, 12522, 355, 7, 37, "Text",
+Cell[586694, 12523, 355, 7, 61, "Text",
  CellID->1811661773],
-Cell[587026, 12531, 43870, 909, 391, "Figure",
+Cell[587052, 12532, 43870, 909, 391, "Figure",
  CellID->117108229],
-Cell[630899, 13442, 219, 5, 37, "Text",
+Cell[630925, 13443, 219, 5, 37, "Text",
  CellID->1142984151]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[631155, 13452, 183, 3, 38, "Subsection",
+Cell[631181, 13453, 183, 3, 38, "Subsection",
  CellID->1819165903],
-Cell[631341, 13457, 863, 15, 86, "Text",
+Cell[631367, 13458, 863, 15, 136, "Text",
  CellID->1045386956],
-Cell[632207, 13474, 10700, 181, 241, "Figure",
+Cell[632233, 13475, 10700, 181, 191, "Figure",
  CellID->1258875684],
-Cell[642910, 13657, 11852, 200, 239, "Figure",
+Cell[642936, 13658, 11852, 200, 239, "Figure",
  CellID->1163554866],
-Cell[654765, 13859, 916, 19, 111, "Text",
+Cell[654791, 13860, 916, 19, 111, "Text",
  CellID->1186491018]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[655730, 13884, 117, 2, 63, "Section",
+Cell[655756, 13885, 117, 2, 63, "Section",
  CellID->800128529],
-Cell[655850, 13888, 902, 16, 85, "Text",
+Cell[655876, 13889, 902, 16, 85, "Text",
  CellID->2045441639]
 }, Open  ]]
 }, Open  ]]
