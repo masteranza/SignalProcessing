@@ -10,22 +10,22 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     77909,       1700]
-NotebookOptionsPosition[     77046,       1663]
-NotebookOutlinePosition[     77403,       1679]
-CellTagsIndexPosition[     77360,       1676]
+NotebookDataLength[     78076,       1705]
+NotebookOptionsPosition[     76623,       1658]
+NotebookOutlinePosition[     76977,       1674]
+CellTagsIndexPosition[     76934,       1671]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[""], "Input",
- CellID->438332625],
+ CellID->438332625,ExpressionUUID->"a4e731fe-a7db-4383-a27d-a2887ef05f4b"],
 
 Cell[CellGroupData[{
 
 Cell["Dyskretyzacja filtru", "Section",
  CellChangeTimes->{{3.668492935231048*^9, 3.668492938671164*^9}},
- CellID->292393664],
+ CellID->292393664,ExpressionUUID->"ea7c076c-ad85-45a4-a327-34393d59d50a"],
 
 Cell[BoxData[{
  RowBox[{
@@ -49,6 +49,7 @@ Cell[BoxData[{
       ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
      ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0"}], 
     "}"}]}], ";"}], "\[IndentingNewLine]"}], "Input",
+ InitializationCell->True,
  CellChangeTimes->{{3.668494184939753*^9, 3.668494189577457*^9}, {
    3.6684944710271673`*^9, 3.668494471102825*^9}, {3.668494515900165*^9, 
    3.668494524422035*^9}, {3.6684965680030622`*^9, 3.668496568283493*^9}, {
@@ -56,7 +57,7 @@ Cell[BoxData[{
    3.668496811641963*^9}, {3.668497040056849*^9, 3.6684970403337097`*^9}, 
    3.66850005661062*^9, {3.668500766245038*^9, 3.6685007797197104`*^9}, {
    3.6685021096459703`*^9, 3.668502160020423*^9}},
- CellID->1677648721],
+ CellID->1677648721,ExpressionUUID->"6ab22c74-4051-4450-b466-3c3f8f2200a5"],
 
 Cell[BoxData[{
  RowBox[{
@@ -141,6 +142,7 @@ Cell[BoxData[{
         RowBox[{
          RowBox[{"Abs", "[", "spectrum", "]"}], "^", "2"}], "]"}], " ", ")"}],
        " ", ")"}]}], "]"}]}], ";"}]}], "Input",
+ InitializationCell->True,
  CellChangeTimes->{{3.6684953010183573`*^9, 3.668495371295197*^9}, {
    3.668495721888329*^9, 3.668495755562785*^9}, {3.668495821238596*^9, 
    3.6684958213265457`*^9}, {3.6684977645449944`*^9, 
@@ -148,7 +150,7 @@ Cell[BoxData[{
    3.6684997343362207`*^9, {3.668499784003449*^9, 3.6684998028317747`*^9}, {
    3.668500053491788*^9, 3.6685000702532873`*^9}, 3.668500608741412*^9, 
    3.668500768709071*^9, 3.668502165830461*^9},
- CellID->467650892],
+ CellID->467650892,ExpressionUUID->"7874a1c8-3c27-4e95-8ffd-7cc344aa121c"],
 
 Cell[CellGroupData[{
 
@@ -341,7 +343,7 @@ aKze69Oie85zBw3G0Lc4X7cgYfxR/iT+rH0go++rZ07ZWTjnQ53KtIUH9Z93
 cGLPnh4XcHxDdRt97uh76EmdzkNVpqEdl8p+KH73jXVixSvHaxQPvtmxSm7t
 Qbv16gBe0HwYxNH3+5KSuyQnDkV98aLclLiIZ6M2DZc=
   "],
- CellID->186406770],
+ CellID->186406770,ExpressionUUID->"f939abea-eb11-49ae-9691-079c9fb50b62"],
 
 Cell[BoxData[
  TagBox[
@@ -364,20 +366,19 @@ $CellContext`ff$$ = $CellContext`DiscretizeData, $CellContext`m$$ =
        "Metoda przybli\:017cenia filtru"}, {$CellContext`DiscretizeData -> 
        "Dyskretyzacja na n-bitach", $CellContext`RoundData -> 
        "Round[x,\!\(\*SuperscriptBox[\(2\), \(-n\)]\)]"}}}, Typeset`size$$ = {
-    1096., {232.3544921875, 237.6455078125}}, Typeset`update$$ = 0, 
+    1096., {254.8544921875, 260.1455078125}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`n$1315691$$ = 0, $CellContext`m$1315692$$ = 
-    0, $CellContext`df$1315693$$ = False, $CellContext`ff$1315694$$ = False}, 
-    
+    True, $CellContext`n$13209$$ = 0, $CellContext`m$13210$$ = 
+    0, $CellContext`df$13211$$ = False, $CellContext`ff$13212$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`df$$ = $CellContext`DiscretizeData, \
 $CellContext`ff$$ = $CellContext`DiscretizeData, $CellContext`m$$ = 
         2, $CellContext`n$$ = 2}, "ControllerVariables" :> {
-        Hold[$CellContext`n$$, $CellContext`n$1315691$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$1315692$$, 0], 
-        Hold[$CellContext`df$$, $CellContext`df$1315693$$, False], 
-        Hold[$CellContext`ff$$, $CellContext`ff$1315694$$, False]}, 
+        Hold[$CellContext`n$$, $CellContext`n$13209$$, 0], 
+        Hold[$CellContext`m$$, $CellContext`m$13210$$, 0], 
+        Hold[$CellContext`df$$, $CellContext`df$13211$$, False], 
+        Hold[$CellContext`ff$$, $CellContext`ff$13212$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -454,7 +455,7 @@ b\[LSlash]\:0105d=",
           "Dyskretyzacja na n-bitach", $CellContext`RoundData -> 
           "Round[x,\!\(\*SuperscriptBox[\(2\), \(-n\)]\)]"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{1139., {343., 348.}},
+     ImageSizeCache->{1139., {366., 371.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -464,24 +465,8 @@ b\[LSlash]\:0105d=",
     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
    Deployed->True,
    StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.668494633212681*^9, 3.668494684028716*^9}, 
-   3.66849476112761*^9, {3.6684950503772373`*^9, 3.668495055587821*^9}, 
-   3.668495123563335*^9, {3.6684951946861258`*^9, 3.66849520054967*^9}, 
-   3.668495250412281*^9, {3.66849540489067*^9, 3.668495418979452*^9}, {
-   3.668495460916532*^9, 3.66849546585182*^9}, {3.668495561158139*^9, 
-   3.668495565142273*^9}, {3.6684956660537853`*^9, 3.668495699393148*^9}, 
-   3.668495879556677*^9, {3.668496193314046*^9, 3.6684962367213707`*^9}, 
-   3.668496300811131*^9, {3.6684964209113817`*^9, 3.6684964269132547`*^9}, {
-   3.668496497349802*^9, 3.6684965776043653`*^9}, 3.668497941023233*^9, {
-   3.668498190614744*^9, 3.6684982164003143`*^9}, 3.6684989866092052`*^9, {
-   3.66849901984704*^9, 3.668499039561577*^9}, 3.668499266034979*^9, 
-   3.668499391776169*^9, {3.6684994812126303`*^9, 3.668499495308907*^9}, {
-   3.668499603838305*^9, 3.6684996288674717`*^9}, 3.668499664134841*^9, 
-   3.668499807215418*^9, 3.668499978557068*^9, {3.668500082015656*^9, 
-   3.668500087410615*^9}, 3.668500504303364*^9, 3.668500621123149*^9, 
-   3.668500791434886*^9, {3.66850213026889*^9, 3.668502168446548*^9}},
- CellID->1539304055]
+  Manipulate`InterpretManipulate[1]]], "Output",ExpressionUUID->"9c76bb17-\
+0e2e-47c8-b881-43cdf3c7bc54"]
 }, Open  ]],
 
 Cell[BoxData[{
@@ -522,7 +507,7 @@ Cell[BoxData[{
   3.6685009236858587`*^9, 3.668500963492008*^9}, {3.66850101857952*^9, 
   3.668501074451445*^9}, {3.668501169144825*^9, 3.6685011892800703`*^9}, {
   3.668501251263192*^9, 3.668501301086672*^9}},
- CellID->1774589752],
+ CellID->1774589752,ExpressionUUID->"d630c76d-7977-4dbb-927a-f6f3ca4deedb"],
 
 Cell[CellGroupData[{
 
@@ -541,7 +526,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.668500960439734*^9, 3.6685009992626762`*^9}, {
   3.668501106249913*^9, 3.6685011240881033`*^9}, {3.668501155178995*^9, 
   3.6685011815217752`*^9}},
- CellID->1422079606],
+ CellID->1422079606,ExpressionUUID->"dde0e8b1-66f7-416f-8af3-342f81b0168d"],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[
@@ -1218,10 +1203,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1261,10 +1247,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1304,10 +1291,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1347,10 +1335,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1390,10 +1379,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1433,10 +1423,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1476,10 +1467,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1519,10 +1511,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1537,9 +1530,9 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     FrontEndResource["GrayLevelColorValueSelector"], {
                     0, {Left, Bottom}}, {Left, Top}, 
                     "ClosingActions" -> {
-                    "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]
-                    ], BaseStyle -> Inherited, Evaluator -> Automatic, Method -> 
-                    "Preemptive"], 
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
                     GrayLevel[0], Editable -> False, Selectable -> False], 
                     ",", 
                     RowBox[{"Opacity", "[", "0.5`", "]"}], ",", 
@@ -1562,10 +1555,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1604,10 +1598,11 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
                     RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
                     True, FrameStyle -> GrayLevel[0.], FrameTicks -> None, 
                     PlotRangePadding -> None, ImageSize -> 
-                    Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], "GrayLevel[0]"], 
-                    Appearance -> None, BaseStyle -> {}, BaselinePosition -> 
-                    Baseline, DefaultBaseStyle -> {}, ButtonFunction :> 
+                    Dynamic[{Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], "GrayLevel[0]"], Appearance -> None, 
+                    BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
                     With[{Typeset`box$ = EvaluationBox[]}, 
                     If[
                     Not[
@@ -1657,14 +1652,14 @@ AL9Kz0L/YKRe0r3ozqJmn56dMur4JD2rXxjjf7QbIgI=
  CellChangeTimes->{{3.66850108437251*^9, 3.668501108499349*^9}, 
    3.6685011566499662`*^9, 3.668501206411766*^9, 3.668501303773219*^9, {
    3.668502137218402*^9, 3.668502172630093*^9}},
- CellID->932858623]
+ CellID->932858623,ExpressionUUID->"0d54389a-0d51-4fed-9fc2-826afd3a4716"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1436, 855},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 25, \
-2016)",
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
 StyleDefinitions->"Science.nb"
 ]
 (* End of Notebook Content *)
@@ -1678,27 +1673,37 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 46, 1, 30, "Input",
+Cell[558, 20, 101, 1, 30, "Input", "ExpressionUUID" -> \
+"a4e731fe-a7db-4383-a27d-a2887ef05f4b",
  CellID->438332625],
 Cell[CellGroupData[{
-Cell[629, 25, 125, 2, 64, "Section",
+Cell[684, 25, 180, 2, 64, "Section", "ExpressionUUID" -> \
+"ea7c076c-ad85-45a4-a327-34393d59d50a",
  CellID->292393664],
-Cell[757, 29, 1302, 29, 87, "Input",
+Cell[867, 29, 1384, 30, 103, "Input", "ExpressionUUID" -> \
+"6ab22c74-4051-4450-b466-3c3f8f2200a5",
+ InitializationCell->True,
  CellID->1677648721],
-Cell[2062, 60, 3129, 90, 159, "Input",
+Cell[2254, 61, 3211, 91, 175, "Input", "ExpressionUUID" -> \
+"7874a1c8-3c27-4e95-8ffd-7cc344aa121c",
+ InitializationCell->True,
  CellID->467650892],
 Cell[CellGroupData[{
-Cell[5216, 154, 7752, 189, 507, "Input",
+Cell[5490, 156, 7807, 189, 507, "Input", "ExpressionUUID" -> \
+"f939abea-eb11-49ae-9691-079c9fb50b62",
  CellID->186406770],
-Cell[12971, 345, 7488, 138, 708, "Output",
- CellID->1539304055]
+Cell[13300, 347, 6341, 121, 754, "Output", "ExpressionUUID" -> \
+"9c76bb17-0e2e-47c8-b881-43cdf3c7bc54"]
 }, Open  ]],
-Cell[20474, 486, 1477, 38, 54, "Input",
+Cell[19656, 471, 1532, 38, 54, "Input", "ExpressionUUID" -> \
+"d630c76d-7977-4dbb-927a-f6f3ca4deedb",
  CellID->1774589752],
 Cell[CellGroupData[{
-Cell[21976, 528, 639, 15, 33, "Input",
+Cell[21213, 513, 694, 15, 33, "Input", "ExpressionUUID" -> \
+"dde0e8b1-66f7-416f-8af3-342f81b0168d",
  CellID->1422079606],
-Cell[22618, 545, 54400, 1114, 392, "Output",
+Cell[21910, 530, 54685, 1124, 413, "Output", "ExpressionUUID" -> \
+"0d54389a-0d51-4fed-9fc2-826afd3a4716",
  CellID->932858623]
 }, Open  ]]
 }, Open  ]]

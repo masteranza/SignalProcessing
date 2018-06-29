@@ -145,7 +145,7 @@ int outputResults(char* filename, double* transmitance, kiss_fft_cpx* trans, kis
         //11 - Real part of the calculated INTEGER coefficients
         //12 - Imaginary part of the calculated INTEGER coefficients
         ///////															1				2		3			4			5		6	  7	  8		9			10		11			12		
-        fprintf(fp, "%e %e %e %e %e %e %e %d %e %e %e %e\n", transmitance[i], trans[i].r, trans[i].i, transInt[i].r, transInt[i].i, mag, mag2, i, coeffs[i].r, coeffs[i].i, coeffsInt[i].r, coeffsInt[i].i);
+        fprintf(fp, "%.17g %.17g %.17g %.17g %.17g %.17g %.17g %d %.17g %.17g %.17g %.17g\n", transmitance[i], trans[i].r, trans[i].i, transInt[i].r, transInt[i].i, mag, mag2, i, coeffs[i].r, coeffs[i].i, coeffsInt[i].r, coeffsInt[i].i);
     }
     fclose(fp);
     return 0;
